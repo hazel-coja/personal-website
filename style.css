@@ -1,0 +1,131 @@
+/*  General Styles */
+body {
+    background-image: url('flower3.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-color: #fff;
+}
+.container {
+    width: 50%;
+    max-width: 1200%;
+    margin: auto;
+    padding: 20%;
+}
+.section{
+    padding: 400%;
+}
+
+/* Header Styles */
+.header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile img{
+    display: flex;
+    align-items: center;
+    width: 100px; /* Make images responsive */
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+   
+   
+}
+.container img{
+    width: 200px;
+    height: 400px;
+    border-radius: 20%;
+    margin-right: 1rem;
+}
+header h1, header p{
+    margin: 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem 0;
+    margin: 0 1rem; /* Add horizontal margins for spacing */
+}
+
+section h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Skills Styles */
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#skills li {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+/* Education and Experience Styles */
+.education-item, .experience-item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-left: 5px solid #ffffff;
+}
+
+.education-item h3, .experience-item h3 {
+    margin-top: 0;
+}
+
+/* Contact Styles */
+#contact {
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 0.5rem;
+    }
+
+    #skills ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    section {
+        margin: 0 0.5rem; /* Reduce horizontal margins on smaller screens */
+    }
+}
